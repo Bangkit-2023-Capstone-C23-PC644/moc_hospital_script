@@ -16,6 +16,7 @@ Go to the project directory
 ```bash
   cd moc_hospital_script
 ```
+Change the variables in the python script **read the appendix**
 
 Install dependencies
 
@@ -32,5 +33,5 @@ Start the script
 
 ## Appendix
 
-Note that for capturing the image this script **requires** a IP Camera and it's RSTP link. And you should **DEFINITELY** change the API_url variable to your MOC main API, the url variable in the while bracket to your MOC main API ml endpoint, and the cv2.waitkey to your desired duration between updates
+Note that for capturing the image this script **requires** a IP Camera and it's RSTP link. And you should **DEFINITELY** change the **API_url** variable to your MOC main API, the **url** variable in the while bracket to your MOC main API ml endpoint, **streamlink** variable to your RSTP camera feed link, **HospitalID and password** to your credentials, lastly, the **cv2.waitkey** to your desired duration between updates, .
 
